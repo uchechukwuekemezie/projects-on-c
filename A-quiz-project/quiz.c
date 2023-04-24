@@ -46,13 +46,13 @@ int main()
         {
             printf("That's correct!\n");
             point1 = 5;
-            printf("You have scored %d points\n", point1);
+            printf("You have scored %d points for this question.\n", point1);
         }
         else
         {
             printf("Oops! That's a wrong answer\n");
-            point01 = point1 - point1;
-            printf("You have scored %d points\n", point01);
+            point01 = 0;
+            printf("You have scored %d point(s) for this question.\n", point01);
         }
 
 
@@ -69,14 +69,38 @@ int main()
          if (ans2 == 4)
          {
              printf("That's correct!\n");
-             point2 = point1 + point1;
-             printf("You have scored %d points\n", point2);
+             point2 = 5;
+             printf("You have scored %d points for this question.\n", point2);
          }
          else
          {
              printf("Oops! That's a wrong answer\n");
-             point02 = point2 - point1;
-             printf("You have scored %d points\n", point02);
+             point02 = 0;
+             printf("You have scored %d points for this question.\n", point02);
+             
+         }
+
+         printf(" 3) How many minutes make a full game of soccer?\n\n");
+         printf(" 1) 90 minutes\n");
+         printf(" 2) 60 minutes\n");
+         printf(" 3) 80 minutes\n");
+         printf(" 4) 70 minutes\n");
+         printf(" 5) 45 minutes\n");
+    
+         printf("Enter your answer\n\n");
+
+         scanf("%d", &ans3);
+         if (ans3 == 1)
+         {
+             printf("That's correct!\n");
+             point3 = 5;
+             printf("You have scored %d points for this question.\n", point3);
+         }
+         else
+         {
+             printf("Oops! That's a wrong answer\n");
+             point03 = 0;
+             printf("You have scored %d points for this question.\n", point03);
              
          }
     }
